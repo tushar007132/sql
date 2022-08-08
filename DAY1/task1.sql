@@ -10,7 +10,6 @@ CREATE TABLE EMP
 empno INT PRIMARY KEY, 
 ename VARCHAR(30), 
 job VARCHAR(30),
-age INT,
 mgrid INT,
 hiredate DATE,
 sal FLOAT,
