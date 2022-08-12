@@ -94,10 +94,63 @@ VALUES
 (1004,'Lawful Corp'	,'Chennai',	'justice@lawful.com',9210342219,	Professional)
 
 
+INSERT INTO EMPLOYEES VALUES
+
+(7001 ,'Sandeep','Analyst', 25000 ,10),
+
+(7002,'Rajesh','Designer', 30000 ,10),
+
+(7003 ,'Madhav', 'Developer' ,40000 ,20),
+
+(7004,'Manoj', 'Developer', 40000, 20),
+
+(7005, 'Abhay' ,'Designer',35000,10),
+
+(7006, 'Uma' ,'Tester', 30000, 30)
+
+
+INSERT INTO DEPARTMENTS VALUES(
+10 ,'Design' ,'Pune'),
+(
+20 ,'Development', 'Pune'
+),
+(
+30 ,'Testing', 'Mumbai'
+),
+(
+40 ,'Document', 'Mumbai')
+
+
+INSERT INTO PROJECTS VALUES
+
+(401, 'Inventory', '2011-04-01', '2011-10-01', '2011-08-31',150000 ,1001),
+
+(402, 'Accounting', '2011-08-01', '2012-01-01',NULL, 500000, 1002)
 
 
 
+INSERT INTO  EmpProjectTasks
+VALUES
+(401, 7001,'2011-04-01','2011-04-20', 'System Analysis','Completed'),
 
+(401 ,7002 ,'2011-04-21', '2011-05-30', 'System Design','Completed')
+
+
+***************************************
+
+select query
+
+**************************************
+
+select * from CLIENTS;
+
+select * from DEPARTMENTS;
+
+select * from PROJECTS;
+
+select * from EmpProjectTasks;
+
+select * from EMPLOYEES;
 
 
 
